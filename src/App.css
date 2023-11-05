@@ -1,0 +1,49 @@
+.app{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(55, 129, 248);
+  justify-content: center;
+}
+.card{
+  background-color :aliceblue;
+  width: 300px;
+  padding: 10px;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border-radius: 1rem;
+  text-align: center;
+}
+.top{
+  gap: 0rem;
+  border-bottom: 1px solid rgb(167, 165, 165);
+  justify-content: center;
+  
+}
+h5{ 
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0%;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+button{
+  width: 300px;
+  height: 40px;
+  border-radius: 1rem;
+  background-color: rgb(66, 105, 248);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-style: none;
+}
